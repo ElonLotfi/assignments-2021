@@ -74,7 +74,7 @@ export class AssignmentsComponent implements OnInit {
       .subscribe((assignment) => {
         this.assignment = assignment;
         this.assignment?.rendu ? this.onSaveAssignmentRendu(false) : this.onSaveAssignmentRendu(true)
-        // this.router.navigate(['/home'], { replaceUrl: true });
+  
 
       });
   }
